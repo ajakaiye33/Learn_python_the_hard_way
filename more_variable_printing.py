@@ -2,9 +2,9 @@ import sys
 print(sys.version)
 
 name = 'Zed A. Shaw'
-age = 35
-height = 74 * 2.54
-weight = 180/2.2
+age = 35 # not a lie
+height = 74 * 2.54 # inches
+weight = 180/2.2 lbs
 eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
@@ -24,5 +24,7 @@ print(f"He's got {eyes} eyes and {hair} hair.")
 print(f"His teeth are usually {teeth} depending on the coffee.")
 
 total = age + height + weight
+
+# this line is tricky, try to get it exactly right
 
 print(f"If I add {age}, {height}, and {round(weight,2) } I get {round(total,2) }.")
