@@ -19,18 +19,3 @@ print(persian_cat)
 print(backslash_cat)
 
 print(fat_cat)
-
-
-knowl = '''
-I didn't know:
-\tthat there \aare
-\tmore escape \bcharacter
-\tthan \n it's really eye-opening for me
-'''
-
-print(knowl)
-
-
-syr = 'Combining escape character and string {} {}'.format(persian_cat,knowl)
-
-print(syr)
