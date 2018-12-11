@@ -1,0 +1,4 @@
+In this lesson we discussed what programming is all
+about and got a high level introduction to JavaScript.
+If you're looking for further study,
+here are some resources we like:
