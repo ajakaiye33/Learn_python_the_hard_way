@@ -3,7 +3,55 @@ from sys import exit
 
 
 
+#
+# def saibaba():
+#     print('He has been known to have a health challenge requiring him to jet abroad regularly for treatment')
+#     print("He has been known for lopsided appointments")
+#     print("He has been know to give people responsibilyt without accountability")
+#     print("He is a laisiz fair leader,wanting to please all political jugganut")
+#     print("His body language tells investors to stay claer, hence joblessness increases")
+#     print('By what margin do you think he will win?')
+#
+#     choice = input("> ")
+#     try:
+#         if '100' in choice or '500' in choice:
+#             print("Your choise is not a figure")
+#     except:
+#
 
+
+
+
+
+
+
+
+
+
+def atikulated():
+    print("He was a former customs officer")
+    print("He is allege to be corrupt but  all cases against him in the law court has been thrown out")
+    print("He is known to a shrewed business man with a sharp negotiation skills")
+    print("He has been known to manage human and material resources to achieve set objective and goals")
+    print("a prosperious and unified country or a bankrupt country")
+
+    prosperious_and_unified_country = False
+
+    while True:
+        choice = input("> ")
+        if choice == "He's corrupt":
+            indecisive("He has not been pronounced guilty by any court of competent jurisdiction")
+        if choice == "I'm atikulated" and not prosperious_and_unified_country:
+            print("He becomes the president")
+            print("A new chapter of prosperity opens before you!")
+            prosperious_and_unified_country = True
+
+        if choice == "I'm atikulated" and prosperious_and_unified_country:
+            indecisive("Power is with the electorate, we shall vote you out accordinly")
+        if choice == 'dissapointed' and prosperious_and_unified_country:
+            saibaba()
+        else:
+            print("I dont understand that decision")
 
 
 
