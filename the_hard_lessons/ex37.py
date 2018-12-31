@@ -14,7 +14,7 @@ if orange < fruit_juice and fruit_juice > water_melon:
     print("yes")
 
 else:
-    print("I'm afraid there will be no ffruit today")
+    print("I'm afraid there will be no fruit today")
 
 #as
 # it's often used to shorten the name of module in order to ease typing when
@@ -53,6 +53,11 @@ for i in range(9):
         print('it is five')
     continue
 
-#lambda is a naless function 
+#lambda is a naless function
 g = lambda x: x **2
 print(g(5))
+
+#old string format;being aware of what they do
+#%s used to format string
+name = 'Gabriel'
+print('%s emerged the best student'% name)
