@@ -127,12 +127,12 @@ class LaserWeaponArmory(Scene):
 
         code = f"{randint(1,9)}{randint(1,9)}{randint(1,9)}"
         guess = input("[keypad]>")
-        gueses = 0
+        guesses = 0
 
 
-        while guess != code and guessess < 10:
+        while guess != code and guesses < 10:
             print("BZZZZZEDDDD")
-            guessess += 1
+            guesses += 1
             guess = input("[keypad]>")
 
 
